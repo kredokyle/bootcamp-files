@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <style>
+        #ol-1 {
+            list-style-type: upper-roman;
+            /* decimal-leading-zero, lower-alpha, upper-alpha, lower-roman, upper-roman */
+            /* (1, a, A, i, I) */
+        }
+
+        #ul-1 {
+            list-style-type: square;
+            /* disc, circle, square, none*/
+        }
+
+        #movies {
+            list-style-type: upper-roman;
+        }
+
+        #awake-list {
+            /* list-style-type: lower-roman;
+            list-style-position: inside; */
+            list-style: lower-roman inside;
+        }
+
+        #wire-list {
+            /* list-style-type: lower-roman;
+            list-style-position: outside; */
+            list-style: lower-roman outside;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ordered List</h1>
+
+    <h2>Top 5 Beaches in the World</h2>
+    <p>According to Conde Nast Traveler</p>
+    <ol id="ol-1">
+        <li>Gouverneur, St. Barts</li>
+        <li>White Beach, Boracay, Philippines</li>
+        <li>North Island, Seychelles</li>
+        <li>North Male Atoll, Maldives</li>
+        <li>Parrot Cay, Turks and Caicos</li>
+    </ol>
+
+    <h1>Unordered List</h1>
+
+    <h2>Grocery List</h2>
+    <ul id="ul-1">
+        <li>2 cartons of fresh milk</li>
+        <li>1 tray of eggs</li>
+        <li>3 tomatoes</li>
+        <li>2 carrots</li>
+    </ul>
+
+    <h1>Nested List</h1>
+
+    <h2>2021 Movies</h2>
+    <ol id="movies">
+        <li>Awake
+            <ol id="awake-list">
+                <li>Gina Rodriguez - Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum labore, quibusdam commodi provident odit, reprehenderit culpa earum soluta, aliquid pariatur eligendi! Aliquam architecto, eos nostrum eius nesciunt incidunt ratione accusamus doloribus in. Incidunt id aliquam labore sequi repellat, maiores alias numquam commodi voluptatum consequuntur non quibusdam quod culpa ea.</li>
+                <li>Ariana Greenblatt - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptatum laudantium aut, esse optio odio accusantium impedit cumque saepe ad nisi unde est excepturi, nulla reprehenderit quae deleniti hic iure porro quod, ex perferendis voluptas veniam! Nostrum, vel. Eum, inventore.</li>
+                <li>Lucius Hoyos - Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint enim, possimus cumque repudiandae amet atque voluptate distinctio unde quas alias, praesentium qui dignissimos voluptatem nisi deleniti, obcaecati corporis. Eius asperiores minus accusantium exercitationem est, aperiam error recusandae similique adipisci pariatur cupiditate minima? Asperiores quis aut facere quo officiis vel. Alias doloribus voluptatem est. Harum, corrupti.</li>
+            </ol>
+        </li>
+        <li>Outside the Wire
+            <ol id="wire-list">
+                <li>Anthony Mackie - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolor cum facere quasi, ipsum cumque repellendus, voluptates cupiditate quas debitis magni labore soluta iste iusto mollitia? Placeat expedita maiores earum ipsam maxime eum ex molestias aliquid. Doloremque quaerat temporibus et rem, mollitia nulla eaque nesciunt sequi, pariatur quos perferendis. Non.</li>
+                <li>Damson Idris - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis beatae maxime, natus ea nam eum veniam distinctio repellat eveniet maiores consectetur pariatur quis autem fugit dolor enim temporibus quod deserunt. Odio quo unde ipsam porro sapiente ab minus consequatur quis est, nemo ut aliquam, fugiat fuga placeat aperiam assumenda ratione. Sapiente voluptate laudantium fugit placeat alias reprehenderit sed nemo pariatur?</li>
+                <li>Emily Beecham - Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, minima! Nam, quaerat. Exercitationem et natus explicabo, rem ipsa a voluptatem, facilis laborum beatae reiciendis sunt, error at quo nesciunt. Pariatur numquam minima hic! Odit iusto sunt nesciunt. Soluta tenetur ipsam amet, et vero modi perferendis, facere laborum dolore, tempore maxime!</li>
+            </ol>
+        </li>
+    </ol>
+</body>
+</html>

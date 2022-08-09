@@ -1,0 +1,117 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color: darkseagreen;
+    padding: 20px 0;
+    /*** FIXED ***/
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.navigation h1 {
+    color: #fff;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    float: left;
+    /*** RELATIVE ***/
+    position: relative;
+    left: 10%;
+    width: 40%;
+}
+
+nav ul {
+    width: 50%;
+    float: right;
+    text-align: right;
+    margin-right: 10%;
+}
+
+nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.announcement {
+    background-color: darkgoldenrod;
+    height: 400px;
+    margin-top: 70px;
+    /*** RELATIVE (parent) ***/
+    position: relative;
+}
+
+.announcement h2 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 60px;
+    font-family: Impact;
+    letter-spacing: 3px;
+    /*** ABSOLUTE ***/
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    /* bottom: 0; */
+    /* left: 50%; */
+}
+
+.main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0;
+} 
+
+.main p {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+article {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.blog header {
+    margin-bottom: 40px;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+span {
+    color: gray;
+}
+
+article p:last-child {
+    margin-bottom: 0;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.25em;
+    font-family: sans-serif;
+}

@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+}
+
+/* Similarities */
+.box {
+    width: 450px;
+    height: 450px;
+}
+
+/* Differences */
+.box1 {
+    box-sizing: border-box;
+    background-color: goldenrod;
+    border: 3px dashed yellow;
+    padding-left: 100px;
+    padding-top: 100px;
+
+    /* margin-bottom: 50px; */
+    /* top, bottom, left, right */
+    
+    /* margin: 60px; */
+    /* 1 value */
+    /* all 4 sides */
+
+    /* margin: 30px 80px; */
+    /* 2 values */
+    /* tb lr */
+
+    /* margin: 5px 40px 20px; */
+    /* 3 values */
+    /* t lr b */
+
+    /* margin: 2px 50px 10px 28px; */
+    /* 4 values */
+    /* t r b l */
+
+    /* margin: auto */
+}
+
+.box2 {
+    background-color: darkolivegreen;
+    border: 8px outset green;
+    /* margin-bottom: 50px; */
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px; */
+    margin: 40px auto;
+
+    overflow: auto;
+    /* automatically add a scrollbar when the content overflows the container */
+
+    /* overflow: hidden; */
+    /* hide the overflowing content */
+
+    /* white-space: nowrap; */
+    /* overflow-x: auto; */
+
+    box-shadow: 30px 30px 50px 50px #f16b57;
+    /* horizontal (+ right, - left) */
+    /* vertical (+ down, - up) */
+}
+
+.box3 {
+    background-color: maroon;
+    /* border-radius: 30px; */
+    border-radius: 100%;
+    margin-right: auto;
+}
+
+button {
+    padding: 10px 20px;
+    border: 0;
+}
+
+
+/*** Float ***/
+.container {
+    /* width: 100%; */
+    height: 100px;
+    margin-bottom: 400px;
+}
+
+.container div {
+    float: left;
+}
+
+.box-a {
+    background-color: crimson;
+    width: 20%;
+    height: 100%;
+}
+
+.box-b {
+    background-color: aquamarine;
+    width: 60%;
+    height: 100%;
+}
+
+.box-c {
+    background-color: teal;
+    width: 20%;
+    height: 100%;
+}
+
+/*** Clear ***/
+.box1 {
+    float: right;
+}
+
+.box2 {
+    float: right;
+    /* clear: right; */
+    /* it will not move up because there is an element floating to the right */
+    
+    /* clear: left; */
+    /* it will move up because there is no element floating to the left */
+}
+
+.box3 {
+    clear: both;
+    /* it will not move up because there is an element floating */
+}

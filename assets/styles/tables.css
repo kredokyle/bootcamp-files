@@ -1,0 +1,29 @@
+table, th, td {
+    border: 1px solid crimson;
+    /* thickness, pattern, color */
+
+}
+
+table {
+    /* empty-cells: show; */
+
+    border-collapse: collapse;
+    /* separate (default), collapse */
+
+    /* border-spacing: 10px 30px; */
+    /* horizontal vertical */
+}
+
+th {
+    border: 1px solid #fff;
+}
+
+th, td {
+    font-family: sans-serif;
+    font-size: 2em;
+}
+
+thead {
+    background-color: crimson;
+    color: #fff;
+}

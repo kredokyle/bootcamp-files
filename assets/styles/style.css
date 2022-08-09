@@ -1,0 +1,144 @@
+/*** Universal Selector ***/
+/* * {
+    color: crimson;
+} */
+
+/*** Element as Selector ***/
+h2, p {
+    color: dimgray;
+}
+
+/* h3 {
+    background-color: darkseagreen;
+} */
+
+/*** Class as Selector ***/
+.chapter {
+    color: rgba(255, 230, 0, 0.628);
+}
+
+/* .chapter-2 {
+    background-color: aqua;
+} */
+
+/*** ID as Selector ***/
+#chapter-one {
+    background-color: coral;
+}
+
+#chapter-two {
+    color: #48a529;
+    background-color: midnightblue;
+}
+
+#chapter-three {
+    background-color: darkslategray;
+}
+
+/*** Combinator ***/
+/* parent child */
+.chapter-1 p {
+    color: darkblue;
+    /* all <p> inside class chapter-1 */
+}
+
+
+/*** Font Family ***/
+h1, h2 {
+    font-family: serif;
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+/*** Font Size ***/
+h1 {
+    font-size: 40px;
+    /* pixel - smallest unit of measure in digital format */
+}
+
+h2 {
+    font-size: 2em;
+    /* 1em = 16px */
+}
+
+h3 {
+    font-size: 150%;
+    /* 100% = 16px */
+}
+
+/*** Font Weight ***/
+h2 {
+    font-weight: 200;
+    /* 100~900 */
+}
+
+.chapter-2 p {
+    font-weight: bold;
+    /* normal, bold */
+}
+
+/*** Font Style ***/
+.chapter {
+    font-style: italic;
+    /* normal, italic, oblique */
+}
+
+/*** Text Transformation ***/
+h1 {
+    text-transform: uppercase;
+}
+
+h3 {
+    text-transform: lowercase;
+}
+
+.chapter-3 p {
+    text-transform: capitalize;
+}
+
+/*** Decoration (line) ***/
+h1 {
+    text-decoration: underline;
+    /* underline, overline, line-through */
+}
+
+.chapter-2 a {
+    text-decoration: none;
+}
+
+/*** Alignment ***/
+h1, h2 {
+    text-align: center;
+}
+
+#chapter-two {
+    text-align: right;
+}
+
+/*** Text Shadow ***/
+h1 {
+    text-shadow: 3px 2px 3px #c58e8e;
+    /* horizontal + right, - left */
+    /* vertical + down, - up */
+}
+
+/*** Indentation ***/
+.chapter-1 p {
+    text-indent: 50px;
+}
+
+/*** Letter Spacing ***/
+h1 {
+    letter-spacing: 3px;
+}
+
+.chapter-3 p {
+    letter-spacing: -1px;
+}
+
+/*** Word Spacing ***/
+.chapter-2 p {
+    word-spacing: 5px;
+}
